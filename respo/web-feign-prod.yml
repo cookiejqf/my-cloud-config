@@ -4,6 +4,10 @@ server:
 spring:
   application:
     name: web-feign
+  boot:
+    admin:
+      client:
+        url: http://localhost:9411
 
 eureka:
   client:
